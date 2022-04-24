@@ -16,13 +16,14 @@ int main() {
     if(v[i] == 'a' || v[i] == 'A' || v[i] == 'e' || 
       v[i] == 'E' || v[i] == 'i' || v[i] == 'I' ||
            v[i] == 'o' || v[i] == 'O' ||
-           v[i] == 'u' || v[i] == 'U'){
-          //printf(" %c ", vogais[i]);
+           v[i] == 'u' || v[i] == 'U')
+    {
+          printf(" ");
     }
     else 
     {
       printf(" %c ", v[i]);
-       count++;
+      count++;
     }
         
     }
